@@ -1,20 +1,20 @@
 parseQueryString.js
 ===================
 
-何これ？ - What's this ? -
+何これ？
 --------
-PHPライクに location.search をパースします。
-厳密に同じ挙動ではないのですが、実用面においてはほぼ問題ない（ような気がする）。
+PHPライクに location.search をパースします。  
+厳密に同じ挙動ではないのですが、実用面においてはほぼ問題ない（ような気がする）。  
 あんまり確認していませんが、IE6とかでも動きます。たぶん。
 
 
 
-使い方 - Example -
+使い方
 ------
-parseQueryString.jsを読み込むだけで $_GET が使えるようになります。
+parseQueryString.jsを読み込むだけで $_GET が使えるようになります。  
 PHPのように [] で配列になります。
 
-* example url
+* example url  
 http://example.com/?aaa=a&bbb[]=b0&bbb[]=b1&bbb[]=b2&ccc[test]=cTest&ccc[sample]=cSample&ccc[7]=c7&ddd[hoge][]=dHoge0&ddd[hoge][]=dHoge1
 
 * source
